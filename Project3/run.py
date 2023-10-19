@@ -1,11 +1,11 @@
-Author: Nikhil Saini
-Class: CS325
-Description: The run.py script is a Python program that fetches HTML content from a specified URL, 
-extracts user comments from the HTML using custom modules for data fetching and parsing, 
-and then saves both the raw HTML content and the extracted comments to separate directories. 
-The script takes a URL as a command-line argument, fetches the content, processes it to extract user 
-comments, and organizes the data into "raw" and "processed" directories, creating them if necessary. 
-This script serves as a basic web scraping and data storage utility for collecting and managing web data.
+# Author: Nikhil Saini
+# Class: CS325
+# Description: The run.py script is a Python program that fetches HTML content from a specified URL, 
+# extracts user comments from the HTML using custom modules for data fetching and parsing, 
+# and then saves both the raw HTML content and the extracted comments to separate directories. 
+# The script takes a URL as a command-line argument, fetches the content, processes it to extract user 
+# comments, and organizes the data into "raw" and "processed" directories, creating them if necessary. 
+# This script serves as a basic web scraping and data storage utility for collecting and managing web data.
 
 import sys
 import os
