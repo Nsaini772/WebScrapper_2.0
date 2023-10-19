@@ -1,3 +1,12 @@
+# Author: Nikhil Saini
+# Class: CS325
+# Description: The html_parser.py script is a Python module that defines an HTMLParser class responsible 
+# for extracting user comments from the HTML content of a given URL. It uses the requests library to fetch the HTML, 
+# processes the content with BeautifulSoup to locate elements with the class 'usertext-body,' extracts the comments, 
+# and returns them as a single string, separated by newline characters. This script serves as a utility for web data 
+# parsing and is intended for use in web scraping projects where user comments need to be extracted.
+
+
 import requests
 from bs4 import BeautifulSoup
 
