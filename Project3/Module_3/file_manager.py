@@ -1,3 +1,11 @@
+# Author: Nikhil Saini
+# Class: CS325
+# Description: The file_manager.py script defines a FileManager class with static methods for managing 
+# files and directories in Python. It includes methods for creating directories, and saving text data to files. 
+# This script serves as a utility module for handling file-related operations and is particularly useful for 
+# organizing and storing data in projects where file and directory management is essential.
+
+
 import os
 
 class FileManager:
