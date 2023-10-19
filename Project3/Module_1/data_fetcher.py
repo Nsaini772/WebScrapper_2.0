@@ -1,3 +1,10 @@
+# Author: Nikhil Saini
+# Class: CS325
+# Description: The data_fetcher.py script is a Python module that defines a DataFetcher class for 
+# fetching data from a given URL using the requests library and saving it to a file. 
+# It includes methods for fetching data and saving it, providing a simple utility for web data retrieval and storage.
+
+
 import requests
 from Module_2.html_parser import HTMLParser
 
